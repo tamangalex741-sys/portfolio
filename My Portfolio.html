@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet"href="portfolio.css">
+</head>
+<body>
+
+    <header>
+	<div class="navbar">
+	<div class="nav-logo">
+	<h1>Portfolio</h1>
+	</div>
+	<div class="nav-link">
+	<a href="#home">Home</a>
+	<a href="#skill">Skills</a>
+	<a href="#about">About</a>
+	<a href="#contact">contact</a>
+	</div>
+	</div>
+	</header>
+	<main>
+	<section class="home-section" id="home">
+	<div class="home-area">
+	<h2>Home</h2>
+	
+	<div class="home-img">
+	<img src="alexlama.png" alt="home-img">
+	</div>
+	<div class="home-contain">
+	<p class="p-one"><span class="text-one">Hi </span><span class="text-two">World!!!</span><br>
+	<b>Hello! learning a HTML,CSS &amp; JS.</b><br>
+	</p>
+	<p class="p-two">A portfolio is a personal website that showcases your skills, projects, and achievements. It works like a digital resume where you present your work, experience, and contact information in a professional way. Portfolios are commonly used by students, developers, designers, and freelancers to impress employers or clients and demonstrate their abilities.
+</p>
+<button onclick="changeText()"class="home-btn">Contact</button>
+	</div>
+	</div>
+	</section>
+	<section class="skill-section" id="skill">
+	<h2>Skill</h2>
+	<div class="card">
+	<div class="card-items">
+	<h3>Fonted</h3>
+	<center>
+	<img src="fonted.png" class="card-img"></center>
+	<p class="card-contain">I have **1 year of experience in Fonted developer**, creating responsive and user-friendly websites using modern design tools and technologies.
+
+</p>
+	</div>
+	<div class="card-items">
+	<h3>Backend </h3><center>
+	<img src="backend.png" class="card-img"></center>
+	<p class="card-contain">I have one year of experience working with Node.js for backend development, building RESTful APIs and handling server-side logic for web applications.
+</p>
+	</div>
+	<div class="card-items">
+	<h3>DataBase</h3><center>
+	<img src="database.png" class="card-img"></center>
+	<p class="card-contain">I have experience working with MySQL databases, including designing tables, writing queries, and managing data efficiently.
+</p>
+	</div>
+	
+	</div>
+	</section>
+	<section class="about-section" id="about">
+	<div class="container">
+	<h2>About</h2>	
+	<div class="about-contain">
+	<img src="./My Portfolio_files/alexlama.png" class="about-img">
+	<p class="about-para">My name is **Alex Tamang**, and I am a passionate and motivated web developer with one year of experience in **HTML, CSS, and JavaScript**. I enjoy creating clean, responsive, and user-friendly websites while continuously improving my coding skills. I have worked on small projects and personal websites to practice my knowledge and gain practical experience in front-end development. I am always eager to learn new technologies and improve my skills to build modern and interactive web applications. This portfolio showcases my projects, skills, and my journey in becoming a professional web developer. 🚀
+</p>
+	</div>
+	</div>
+	</section>
+	<section class="contact-section"id="contact">
+	<div class="contact-heading">
+	<h2>contact</h2>
+	</div>
+	
+	<div class="contact">
+	<div class="contact-info">
+	<ul>
+	<li><a href="#"> <i class="fa-solid fa-envelope"></i>Gmail</a></li>
+	<li><a href="#"> <i class="fa-solid fa-phone"></i>Phone</a></li>
+	<li><a href="#">Service</a></li>
+	<li><a href="#"><i class="fa-solid fa-location-crosshairs"></i>Location</a></li>
+	</ul>
+	</div>
+	<div class="contact-msg">
+	<div class="username">
+	<input type="text"placeholder="Enter your name"></div>
+	<div class="feedback">
+	<textarea rows="5"cols="50">Write a message</textarea>
+	</div>
+	<div class="submit">
+	<button onclick="conformMsg()"class"submit-btn">submit</button>
+	</div>
+	</div>
+	</div>
+	</section>
+	</main>
+	
+<script src="portfolio.js">
+ 
+</script>
+</body>
+</html>
