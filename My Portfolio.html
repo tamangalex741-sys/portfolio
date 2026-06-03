@@ -10,19 +10,35 @@
 </head>
 <body>
 
-    <header>
-	<div class="navbar">
-	<div class="nav-logo">
-	<h1>Portfolio</h1>
+<header>
+    <nav class="navbar">
+
+        <div class="nav-logo">
+            <h1>Portfolio</h1>
+        </div>
+
+        <div class="nav-link" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#skill">Skills</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+			
+            <a href="#contact">Contact</a>
+			
+        </div>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </nav>
+</header>
+
+	<div class="updown">
+	<a href="#"id="home"><i class="fa-solid fa-arrow-up"></i></a>
 	</div>
-	<div class="nav-link">
-	<a href="#home">Home</a>
-	<a href="#skill">Skills</a>
-	<a href="#about">About</a>
-	<a href="#contact">contact</a>
-	</div>
-	</div>
-	</header>
 	<main>
 	<section class="home-section" id="home">
 	<div class="home-area">
@@ -32,12 +48,13 @@
 	<img src="alexlama.png" alt="home-img">
 	</div>
 	<div class="home-contain">
-	<p class="p-one"><span class="text-one">Hi </span><span class="text-two">World!!!</span><br>
-	<b>Hello! learning a HTML,CSS &amp; JS.</b><br>
+	<p class="p-one"><span class="text-one">Alex </span><span class="text-two">Tamang</span><br>
+	<b>Hi! I am from Nepal</b><br>
+	<b class="b2">Fontend developer</b>
 	</p>
 	<p class="p-two">A portfolio is a personal website that showcases your skills, projects, and achievements. It works like a digital resume where you present your work, experience, and contact information in a professional way. Portfolios are commonly used by students, developers, designers, and freelancers to impress employers or clients and demonstrate their abilities.
 </p>
-<button onclick="changeText()"class="home-btn">Contact</button>
+<button onclick="changeText()"class="home-btn">hire Me</button>
 	</div>
 	</div>
 	</section>
@@ -46,21 +63,27 @@
 	<div class="card">
 	<div class="card-items">
 	<h3>Fonted</h3>
-	<center>
-	<img src="fonted.png" class="card-img"></center>
+	<div class="card-icon">
+	<i class="fa-solid fa-code"></i>
+	</div>
 	<p class="card-contain">I have **1 year of experience in Fonted developer**, creating responsive and user-friendly websites using modern design tools and technologies.
 
 </p>
 	</div>
 	<div class="card-items">
-	<h3>Backend </h3><center>
-	<img src="backend.png" class="card-img"></center>
+	<h3>Backend </h3>
+	<div class="card-icon">
+	<i class="fa-solid fa-server"></i>
+	</div>
+	
 	<p class="card-contain">I have one year of experience working with Node.js for backend development, building RESTful APIs and handling server-side logic for web applications.
 </p>
 	</div>
 	<div class="card-items">
-	<h3>DataBase</h3><center>
-	<img src="database.png" class="card-img"></center>
+	<h3>DataBase</h3>
+	<div class="card-icon">
+	<i class="fa-solid fa-database"></i>
+	</div>
 	<p class="card-contain">I have experience working with MySQL databases, including designing tables, writing queries, and managing data efficiently.
 </p>
 	</div>
