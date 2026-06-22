@@ -37,8 +37,10 @@
 </header>
 
 	<div class="updown">
-	<a href="#"id="home"><i class="fa-solid fa-arrow-up"></i></a>
-	</div>
+    <a href="#home">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+</div>
 	<main>
 	<section class="home-section" id="home">
 	<div class="home-area">
@@ -55,6 +57,7 @@
 	<p class="p-two">A portfolio is a personal website that showcases your skills, projects, and achievements. It works like a digital resume where you present your work, experience, and contact information in a professional way. Portfolios are commonly used by students, developers, designers, and freelancers to impress employers or clients and demonstrate their abilities.
 </p>
 <button onclick="changeText()"class="home-btn">hire Me</button>
+
 	</div>
 	</div>
 	</section>
@@ -99,35 +102,70 @@
 </p>
 	</div>
 	</div>
+	<section class="gallery-section" id="project">
+    <div class="gallery-heading">
+        <h3>My Projects</h3>
+    </div>
+
+    <div class="gallery-grid">
+        <div class="gallery-item large">
+            <img src="image1.png" alt="Main Project">
+        </div>
+
+        <div class="gallery-item">
+            <img src="image3.png" alt="Project 2">
+        </div>
+
+        <div class="gallery-item">
+            <img src="image4.png" alt="Project 3">
+        </div>
+
+        <div class="gallery-item">
+            <img src="image5.png" alt="Project 4">
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/project5.jpg" alt="Project 5">
+        </div>
+    </div>
+</section>
 	</section>
-	<section class="contact-section"id="contact">
-	<div class="contact-heading">
-	<h2>contact</h2>
-	</div>
-	
-	<div class="contact">
-	<div class="contact-info">
-	<ul>
-	<li><a href="#"> <i class="fa-solid fa-envelope"></i>Gmail</a></li>
-	<li><a href="#"> <i class="fa-solid fa-phone"></i>Phone</a></li>
-	<li><a href="#">Service</a></li>
-	<li><a href="#"><i class="fa-solid fa-location-crosshairs"></i>Location</a></li>
-	</ul>
-	</div>
-	<div class="contact-msg">
-	<div class="username">
-	<input type="text"placeholder="Enter your name"></div>
-	<div class="feedback">
-	<textarea rows="5"cols="50">Write a message</textarea>
-	</div>
-	<div class="submit">
-	<button onclick="conformMsg()"class"submit-btn">submit</button>
-	</div>
-	</div>
-	</div>
-	</section>
+	<section class="contact-section" id="contact">
+    <div class="contact-heading">
+        <h2>Contact</h2>
+    </div>
+
+    <div class="contact">
+        <div class="contact-info">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i> Gmail</a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i> Phone</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#"><i class="fa-solid fa-location-crosshairs"></i> Location</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-msg">
+            <div class="username">
+                <input type="text" placeholder="Enter your name">
+            </div>
+
+            <div class="feedback">
+                <textarea rows="5" placeholder="Write a message"></textarea>
+            </div>
+
+            <div class="submit">
+                <button onclick="conformMsg()" class="submit-btn">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
 	</main>
-	
+	<div class="footer-bottom">
+    <p>&copy; 2025 Your Website. All Rights Reserved.</p>
+</div>
 <script src="portfolio.js">
  
 </script>
